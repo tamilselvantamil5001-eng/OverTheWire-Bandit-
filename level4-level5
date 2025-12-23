@@ -1,0 +1,23 @@
+#To login for the next level we want change the directory has bandit3 - bandit4.
+ssh bandit4@bandit.labs.overthewire.org
+#password : "2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ"
+ 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+#For the next level password clues is stored in the only human-readable file in the inhere directory.
+
+#To change the directory to inhere commont"cd inhere".
+#To list the all hiden file commond "la -al".
+#This commond show 9 files.In this 9 files there is a only one human-readable file to find.
+# commond  for i in $(ls); do file ./$i; done.It show the all files type ASCII text only the human readable form.
+./-file00: data
+./-file01: OpenPGP Public Key
+./-file02: OpenPGP Public Key
+./-file03: data
+./-file04: data
+./-file05: data
+./-file06: data
+./-file07: ASCII text
+./-file08: data
+./-file09: data
+#"cat ./-file07" for the password : "4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw" 
+#exit and change to the next level 5
