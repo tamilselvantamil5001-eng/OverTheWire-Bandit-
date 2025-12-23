@@ -2,15 +2,21 @@
 
 ssh bandit.labs.overthewire.org -p2220 -l bandit2
 
-#Next we will use the password given to us " CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9 "
+#Next we will use the password given to us " 263JGJPfgU6LtdEvgfWU1XP5yac29mFx  "
 
-CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx 
+
 
 #Next we got to find the directory that holds the next password. 
-#Clue is "spaces in this filename" the "cat < spaces in this filename" will not work but typing in "cat spa " 
-#then pressing the Tab button will work to find this folder within folders file 
-#because spaces is probably the only file that starts out with that exact name
+#Clue is "spaces in this filename" the "cat --spaces in this filename-- " will not work but typing in "cat spa "
+#First we want to list the file by using "ls"
 
-cat spaces\ in\ this\ filename
+#They showing the"--spaces in this filename--" file which is contain the pasword for the next level
+#by using the cat we can not read this file because it hiden file which is start like"-"
+#so we use this commont for read the file "cat ./--spaces\ in\ this\ filename--"
 
-#password gotten is " UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK "
+#they show the password for the next level
+#password : MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+
+
