@@ -1,0 +1,21 @@
+#To login for the next level we want change the directory has bandit4 - bandit5.
+ssh bandit5@bandit.labs.overthewire.org
+#password : "4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw"
+4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+#For the next level password is The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
+The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
+
+human-readable
+1033 bytes in size
+not executable
+#First we want to chnage the directory to inhere"cd inhere"
+#To list the all types commond "ls -al".
+#They show 19 directory in this there is only one directory have this "human-readable
+1033 bytes in size not executable"
+#Lets commond "ls -alR" it shows all the information present in all 19 directiory.It is to not easy to find.
+#So use the commond "find . -readable -size 1033c -not -executable"
+#It show the that perticular fill which is present this all quality like "./maybehere07/.file2"
+#Now we can read using the commont "cat ./maybehere07/.file2"
+#Finally we get the password:"HWasnPhtq9AVKe0dmk45nxy20cvUa6EG"
+#Now exit the level5..
