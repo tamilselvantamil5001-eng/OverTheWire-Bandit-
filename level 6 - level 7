@@ -1,0 +1,6 @@
+#level 6
+
+#To login for the next level we want change the directory has bandit4 - bandit5.
+ssh bandit5@bandit.labs.overthewire.org
+#password : "4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw"
+4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
