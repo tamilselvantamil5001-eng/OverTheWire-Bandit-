@@ -1,0 +1,13 @@
+#level 3
+#To login in this bandit3 we want change the host name has "bandit2 - bandit3"
+ssh bandit3@bandit.labs.overthewire.org
+#password: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+#clue : for the next level password is stored in hidden file in inhere directory
+#so first we want list all the files by usins the "ls".to find hidden file we just commond "la -al"
+#we want to chnage the dir by using the "cd inhere".
+#in this directory the file"...Hiding-From-You" store the password.
+#commont cat ./...Hiding-From-You
+
+#We get the next level password : "2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ".
+#Now exit from the bandit3.
