@@ -1,1 +1,25 @@
+#Level 1
 
+#for the next level we want to change the host name as bandit0 to bandit1
+ssh bandit1@bandit.labs.overthewire.org
+
+#password for this is already find in level 0
+ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
+
+
+#Now that we are in, lets check home directory like last time to find the next password
+
+ls
+
+#only a dash is showing up so lets see if we can read the dash
+
+cat -
+
+#cat and just a dash does not work. Lets try to find the exact file that - is holding
+
+cat < - or cat ./-
+
+#The file holds the next password which is " 263JGJPfgU6LtdEvgfWU1XP5yac29mFx "
+#After we need to exit from this bandit1 and change into bandit2
+#Now we need to log into Level 2
