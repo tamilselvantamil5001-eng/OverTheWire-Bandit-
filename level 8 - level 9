@@ -1,0 +1,16 @@
+#level 8
+
+#To login for the next level we want change the directory has bandit7 - bandit8.
+ssh bandit8@bandit.labs.overthewire.org
+#password : "dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc"
+dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+#For the next level password the clue is stored in the file data.txt and is the only line of text that occurs only once.
+
+#To finding the password first find number of words present in the data.txt file.After Commond "cat data.txt | sort  |uniq -c |grep -v 10"
+#Let explain the commond that sort - it is use to sort all the letter in the common form
+#uniq -c is use to show all lines in unique form
+#grep -v 10 this commond is avoid the word which comes 10 times and show the password for the next level.
+#Password for  the next level is " 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM"
+
+#Now we exit from the level 8 and move to next level..
