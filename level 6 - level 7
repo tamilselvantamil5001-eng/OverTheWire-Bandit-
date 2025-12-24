@@ -1,6 +1,18 @@
 #level 6
 
-#To login for the next level we want change the directory has bandit4 - bandit5.
-ssh bandit5@bandit.labs.overthewire.org
-#password : "4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw"
-4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+#To login for the next level we want change the directory has bandit5 - bandit6.
+ssh bandit6@bandit.labs.overthewire.org
+#password : "HWasnPhtq9AVKe0dmk45nxy20cvUa6EG"
+HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+#For the next level they give the clues has The password for the next level is stored somewhere on the server and has all of the following properties:
+#owned by user bandit7
+#owned by group bandit6
+#33 bytes in size...
+
+#Let commond the la -al it shows the all hidden files.But it shows all file that permission denied and in that many file show the correct file we can not see the correct file.
+#So we use the "Find" commond like "find / -user bandit7 -group bandit6 -size 33c 2>/dev/null"
+2>/dev/null this commond use to show the file which contain the password
+/var/lib/dpkg/info/bandit7.password  now using cat commond we see the password for the next level "morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj".
+#Now exit from the bandit level6...
+
