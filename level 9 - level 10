@@ -7,14 +7,6 @@ ssh bandit9@bandit.labs.overthewire.org
 
 #Now for the next level to find the password clue is stored in the file data.txt in one of the few human-readable strings, preceded by several ‘=’ characters.
 
-#Level 9
-
-#Log in and use password
-
-
-ssh bandit.labs.overthewire.org -p2220 -l bandit9
-
-UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
 
 #this file is unreadable except for some strings that have "=" in it. 
 #there is a way to use strings, but I will use grep
