@@ -1,0 +1,15 @@
+#level 10
+
+#To login for the next level we want change the directory has bandit7 - bandit8.
+ssh bandit10@bandit.labs.overthewire.org
+#password : "FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey"
+FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+
+#For the next level clue is the password for the next level is stored in the file data.txt, which contains base64 encoded data.So we wnat to decode using teh base 64
+#Now we want ti list the all file present in this level by using the "ls" commond.
+#After it shows the data.txt.Now we read the file by using the "cat" commond.It shows like decode letter like "VGhlIHBhc3N3b3JkIGlzIGR0UjE3M2ZaS2IwUlJzREZTR3NnMlJXbnBOVmozcVJyCg==".
+#Then using the commond "cat data.txt | base64 -d".
+#This commond help to decode the commond into real form.
+#The password for the next level is"dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr"
+
+#Now exit from the level1 and move to next level..
