@@ -1,0 +1,19 @@
+#level 11
+
+#To login for the next level we want change the directory has bandit7 - bandit8.
+ssh bandit11@bandit.labs.overthewire.org
+#password : " dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr"
+ dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+
+
+
+#This requires a little bit of shifting letters in encryption
+#we have to shift the letters over by 13
+#best way to figure this out is ROT13 decoder
+#I used rot13.com to figure out the cat data.txt it gave
+
+cat data.txt
+
+#code is " Gur cnffjbeq vf 5Gr8L4qetPEsPk8htqjhRK8XSP6x2RHh "
+#rot13.com says that decoded it is
+#" The password is 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4 "
