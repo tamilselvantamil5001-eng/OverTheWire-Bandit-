@@ -1,1 +1,21 @@
+#level 27
+
+#To login for the next level we want change the directory has bandit26 - bandit27.
+ssh bandit27@bandit.labs.overthewire.org
+#password : "3ba3118a22e93127a4ed485be72ef5ea"
+3ba3118a22e93127a4ed485be72ef5ea
+
+#For the next level clue is There is a git repository at ssh://bandit27-git@bandit.labs.overthewire.org/home/bandit27-git/repo via the port 2220. The password for the user bandit27-git is the same as for the user bandit27.
+#Using the following commmond to find the next level
+mkdir /tmp/hello27
+cd /tmp/hello27
+git clone ssh://bandit27-git@localhost/home/bandit27-git/repo
+3ba3118a22e93127a4ed485be72ef5ea    # type password and enter
+cd repo
+ls
+cat README
+
+#The password for the next level is "0ef186ac70e04ea33b4c1853d2526fa2"
+
+#Now exit..
 
