@@ -1,1 +1,20 @@
-nbh
+#level 32
+
+#To login for the next level we want change the directory has bandit31 - bandit32.
+ssh bandit32@bandit.labs.overthewire.org
+#password : "56a9bf19c63d650ce78e6ec0354ee45e"
+56a9bf19c63d650ce78e6ec0354ee45e
+
+#For the next level clue is After all this git stuff, it’s time for another escape. Good luck!
+
+# all convert to uppercase but can use $ to see variable
+Ctrl+C    # return bandit31
+ls -la /home/bandit32/
+# login again
+$0	# name of script (run it)
+ls -la
+cat /etc/bandit_pass/bandit33
+
+For the next level password is c9c3199ddf4121b10cf581a98d51caee
+
+#now exit..
