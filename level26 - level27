@@ -1,29 +1,14 @@
-#Level 26 - 27
+#level 26
 
+#To login for the next level we want change the directory has bandit25 - bandit26.
+ssh bandit26@bandit.labs.overthewire.org
+#password : "5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z"
+5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z
 
-#now let's log into bandit 27 with the password
-#heh. there is no lvl 27
-#but if you stick around in bandit26 and type :shell
-#you will eventually find the real bandit26 insides and there is a readme
-#the read me congratulates you and says
+#For the next level clue is  good job getting a shell! Now hurry and grab the password for bandit27!
+#Let using the "v" to open the vim and set the set shell=/bin/bash and shell
+#After complet this list out the all file using ths "ls".
+#It show the file text.txt.Read the file using cat
+#It give the next level password as "3ba3118a22e93127a4ed485be72ef5ea"
 
-#Congratulations on solving the last level of this game!
-
-#At this moment, there are no more levels to play in this game. However, we #are constantly working
-#on new levels and will most likely expand this game with more levels soon.
-#Keep an eye out for an announcement on our usual communication channels!
-#In the meantime, you could play some of our other wargames.
-
-#If you have an idea for an awesome new level, please let us know!
-
-#That's it! We are finished!
-
-#A final note on bandit26
-#if you have the password and the ssh, AND shrink the terminal size
-#you can easily log in with 
-#' ssh -i ./bandit26.sshkey bandit26@bandit.labs.overthewire.org -p2220 '
-# pw: 5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z
-#and not have to do anything extra to get easier access to the vim
-#after pressing " v "
-#they may fix this in the future but this is the easiest way
-#to access bandit26
+#now exit from the level..
