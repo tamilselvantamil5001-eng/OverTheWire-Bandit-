@@ -26,7 +26,6 @@ cat /etc/bandit_pass/bandit14
 #now lets use the private key and bandit14's login and ssh key
 
 ssh -i ./sskey.private bandit14@localhost
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 
-4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
-
-#We're in.
+#Now exit from the level13
