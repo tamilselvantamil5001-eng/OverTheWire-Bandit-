@@ -1,10 +1,9 @@
 #level 14
 
-#for the next level we want to change the host name as bandit0 to bandit1
+#To login for the next level we want change the directory has bandit7 - bandit8.
 ssh bandit14@bandit.labs.overthewire.org
-
-#password for this is already find in level 13
-4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+#password : " MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS"
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 
 #We do not need to log in or use a password since we already logged in
 #now we need to know the password for the next level
@@ -13,9 +12,11 @@ ssh bandit14@bandit.labs.overthewire.org
 
 nc localhost 30000
 
-#we need a password which should be the same password for this lab
+#we need a password which should be the same password for this lab in blanking part
 
-4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 
-#we receive a password ' BfMYroe26WYalil77FoDi9qh59eK5xNr '
+#we receive a password ' 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo '
+
+#Now exit from the level 14
 
